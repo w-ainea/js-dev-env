@@ -11,5 +11,5 @@ app.get('/', (req, res)=>{
 });
 
 app.listen(port, (err)=>{
-  (err) ? console.log(err): open(`http://localhost: ${port}`);
+  (err) ? console.log(err): open("http://localhost: " + port );
 });
